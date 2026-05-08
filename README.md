@@ -1,3 +1,30 @@
-# tomoai-title-formulas
+# TOMOAI Viral Title Skill
 
-A Skill for generating and optimizing viral WeChat article titles based on TOMOAI title formulas.
+这是一个用于公众号爆款标题创作的 Skill。
+
+它适用于以下场景：
+
+- 帮我起标题
+- 写个爆款标题
+- 标题怎么写
+- 这个标题好不好
+- 帮我优化标题
+- 公众号标题生成
+- 根据文章主题生成吸引人的标题
+
+## 功能
+
+这个 Skill 会根据用户输入的完整度，自动进入不同流程：
+
+1. 用户只给模糊主题：先理解需求，再生成标题
+2. 用户给具体主题或关键词：直接生成标题
+3. 用户已有标题：进行标题诊断与优化
+4. 用户想批量起标题：输出多组标题方向
+
+## 文件结构
+
+```txt
+.
+├── SKILL.md
+└── references/
+    └── title-formulas.md
